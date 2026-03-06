@@ -129,6 +129,10 @@ if (form) {
 
     e.preventDefault();
 
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
 
     // ===============================
     // BLOQUEIO DE DOMÍNIO
