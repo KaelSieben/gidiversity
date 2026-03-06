@@ -185,6 +185,7 @@ if (form) {
     // ===============================
     // SPINNER BOTÃO
     // ===============================
+    const button = form.querySelector('button[type="submit"]');
     const originalText = button.innerHTML;
 
     button.disabled = true;
