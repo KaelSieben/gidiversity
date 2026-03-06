@@ -119,19 +119,20 @@ revealTargets.forEach(el => {
 // ===============================
 // FORMULÁRIO EMAILJS
 // ===============================
-const form = document.querySelector(".form-vertical");
+const form = document.getElementById('form-newsletter');
 let lastSubmit = 0;
 
 if (form) {
 
   emailjs.init("NiOzsRcTQj3LePcT-");
-
-  const button = form.querySelector("button");
-
   form.addEventListener("submit", async function (e) {
 
     e.preventDefault();
 
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
 
     // ===============================
     // BLOQUEIO DE DOMÍNIO
