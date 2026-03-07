@@ -1013,6 +1013,15 @@ img {
   .point:hover {
     transform: none;
   }
+
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__cols {
+  text-align: center;
+}
 }
 
 @media (max-width: 520px) {
@@ -1050,9 +1059,14 @@ img {
     text-align: center;
   }
 
+
   .footer-email {
     margin-top: 5px;
   }
+
+  .footer__cols {
+  grid-template-columns: 1fr;
+}
 
   .cta-card-vertical {
     padding: 24px;
