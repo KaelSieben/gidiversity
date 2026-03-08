@@ -1,6 +1,5 @@
-// ===============================
-// TOAST
-// ===============================
+import emailjs from '@emailjs/browser';
+
 function showToast(message, type = "success") {
 
   const toast = document.getElementById("toast");
