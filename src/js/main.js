@@ -1,4 +1,4 @@
-import './style.css'
+import '/src/css/style.css'
 
 import emailjs from '@emailjs/browser';
 
