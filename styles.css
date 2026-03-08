@@ -1116,3 +1116,8 @@ img {
 #toast.error{
   background:#dc2626;
 }
+
+.header .btn--primary {
+  background: linear-gradient(135deg, var(--brand), var(--brand2)) !important;
+  color: #fff !important;
+}
