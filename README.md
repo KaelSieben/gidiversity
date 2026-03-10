@@ -2,30 +2,31 @@
 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Clone
+## 3️⃣ Gerenciador de Pacotes (npm)
+Verificar se já está instalado:
 
-**Comando:**
+    npm -v
+
+
+## 📥 Clonando o Repositório
+ **Abra o terminal e execute:**
 
     git clone https://github.com/KaelSieben/gidiversity.git
 
-## ⚙️ Configuração Inicial
+  **Acesse o diretório do projeto:**
 
-#### 1.  Instalação de Dependências
-Abra o terminal e execute o comando de instalação do Vite e do TailwindCSS. 
+    cd gidiversity
 
-**Comando:**
+## 📦 Instalando Dependências
+**Abra o terminal e execute:**
 
-    npm install -D vite tailwindcss postcss autoprefixer
+    npm install
 
-#### 2. Geração dos Arquivos de Configuração
-Inicie a configuração do Tailwind para gerar automaticamente os arquivos necessários na raiz do projeto.
+## ⚡ Rodando o Projeto
 
-**Comando:**
+**Ambiente de Desenvolvimento:**
 
-
-     npx tailwindcss init -p
-
-Isso criará os arquivos ***tailwind.config.js*** e ***postcss.config.js***.
+    npm run dev
 
 ## 📂 Estrutura de Pastas
 O projeto utiliza a estrutura padrão do Vite para otimização de build:
