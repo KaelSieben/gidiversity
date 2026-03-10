@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Informe a localização do sitemap para ajudar buscadores a descobrirem suas URLs.
+Sitemap: https://gidiversity.com/sitemap.xml
