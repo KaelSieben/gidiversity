@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './index.html',
-    './src/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -43,6 +40,10 @@ export default {
           800: '#272B2D',
           900: '#16181A',
         },
+      },
+      fontFamily: {
+        heading: ['Quicksand', 'sans-serif'],
+        body: ['"Source Sans 3"', 'sans-serif'],
       },
     },
   },
