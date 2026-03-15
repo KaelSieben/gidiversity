@@ -45,6 +45,9 @@ export default {
         heading: ['Quicksand', 'sans-serif'],
         body: ['"Source Sans 3"', 'sans-serif'],
       },
+      container:{
+        center: true,
+      }
     },
   },
   plugins: [],
