@@ -45,9 +45,22 @@ export default {
         heading: ['Quicksand', 'sans-serif'],
         body: ['"Source Sans 3"', 'sans-serif'],
       },
-      container:{
-        center: true,
-      }
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1.5rem',
+        sm: '4rem',
+        lg: '6rem',
+        xl: '8rem',
+        '2xl': '10rem',
+      },
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+      },
     },
   },
   plugins: [],
