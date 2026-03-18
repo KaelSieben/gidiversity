@@ -35,14 +35,30 @@
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
-	  "@type": "Organization",
-	  "name": "GID",
-	  "url": "https://gidiversity.com",
-	  "logo": "https://gidiversity.com/public/gid-symbol.svg",
-	  "description": "Plataforma que conecta pessoas LGBTQIAPN+ a profissionais verificados nas áreas da saúde e do direito.",
-	  "sameAs": [
-	    "https://www.instagram.com/gendrifyid",
-	    "https://www.linkedin.com/company/global-inclusive-diversity",
+	  "@graph": [
+	    {
+	      "@type": "Organization",
+	      "@id": "https://gidiversity.com/#organization",
+	      "name": "GID",
+	      "url": "https://gidiversity.com",
+	      "logo": "https://gidiversity.com/public/gid-symbol.svg",
+	      "description": "Plataforma que conecta pessoas LGBTQIAPN+ a profissionais verificados nas áreas da saúde e do direito.",
+	      "sameAs": [
+	        "https://www.instagram.com/gendrifyid",
+	        "https://www.linkedin.com/company/global-inclusive-diversity"
+	      ]
+	    },
+	    {
+	      "@type": "WebSite",
+	      "@id": "https://gidiversity.com/#website",
+	      "url": "https://gidiversity.com",
+	      "name": "GID | Gênero, Inclusão e Diversidade",
+	      "description": "Conecta pessoas LGBTQIAPN+ a profissionais de saúde e direito com curadoria ética e segurança de dados",
+	      "publisher": {
+	        "@id": "https://gidiversity.com/#organization"
+	      },
+	      "inLanguage": "pt-BR"
+	    }
 	  ]
 	}
 	</script>
